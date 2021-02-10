@@ -1,21 +1,21 @@
 rainmeter-python
 ================
 
-Originally created by [jblume](https://github.com/jblume), ~~now~~ then maintained by [glitchassassin](https://github.com/glitchassassin), now abandoned.
+Первоначально созданный [jblume](https://github.com/jblume), ~~сейчас~~ затем поддерживается [glitchassassin](https://github.com/glitchassassin).
 
-Plugin for Rainmeter enabling Python 3.4/3.5 scripting
+Плагин для Rainmeter, позволяющий писать скрипты Python 3.4 / 3.5
 
 Installation
 ------------
 
 All Releases: [![Github All Releases](https://img.shields.io/github/downloads/glitchassassin/rainmeter-python/total.svg)](https://github.com/glitchassassin/rainmeter-python/releases)
 
-Unzip the DLL for your Python version and copy it to the 'Plugins' folder of your Rainmeter installation.
+Разархивируйте DLL для своей версии Python и скопируйте ее в папку «Plugins» вашей установки Rainmeter.
 
-For this plugin to function, you'll need to install the Python distribution matching your Rainmeter's architecture (Win32 or x64). If in doubt, use Python x64.
-The corresponding 'python3x.dll' needs to be in your DLL search path; all standard installers of Python 3 automatically put the DLL into your System32 directory, so this should normally be the case. If you see an "Error 126" in Rainmeter's logs while trying to load the plugin, this is probably your issue.
+Чтобы этот плагин работал, вам необходимо установить дистрибутив Python, соответствующий архитектуре вашего Rainmeter (Win32 или x64). Если сомневаетесь, используйте Python x64.
+Соответствующий «python3x.dll» должен находиться в пути поиска вашей DLL; все стандартные установщики Python 3 автоматически помещают DLL в каталог System32, так что обычно так и должно быть. Если вы видите «Ошибка 126» в журналах Rainmeter при попытке загрузить плагин, вероятно, это ваша проблема.
 
-Example (Simple)
+Пример (простой)
 -------
 ```ini
 [Measure]
@@ -46,7 +46,7 @@ class Measure:
 ```
 
 
-Example (IMAP Unread Mail Count)
+Пример (количество непрочитанных писем IMAP)
 -------
 ```ini
 [Measure]
